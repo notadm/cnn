@@ -1,20 +1,9 @@
 /** @type {import('next').NextConfig} */
 
-module.exports = {
+const nextConfig = {
   output: "export",
-  images: {
-    unoptimized: true,
-  },
-}
-//module.exports = {
-  //webpack: (config, { isServer }) => {
-    //// Fixes npm packages that depend on `fs` module
-    //if (!isServer) {
-      //config.node = {
-        //fs: 'empty'
-      //}
-    //}
+  basePath: "/cnn",
+  images: { unoptimized: true },
+};
 
-    //return config
-  //}
-//}
+module.exports = nextConfig;
