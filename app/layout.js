@@ -5,8 +5,8 @@ import icon from './favicon.ico'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-		title: 'notadam',
-    description: '- Software Engineer',
+		title: 'MNIST CNN',
+    	description: '-',
 }
 
 
